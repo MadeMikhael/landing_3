@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panto</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- header start -->
+    <header class="absolute top-0 w-full items-center">
+        <div class="container mx-auto min-w-[75%] xl:mt-1">
+          <div class="relative mx-auto flex items-center justify-between">
+            <div class="">
+              <a href="" class="block py-4 xl:py-5 text-base font-semibold lg:text-xl text-white">Panto</a>
+            </div>
+            <div class="flex items-center">
+              <button id="hamburger" type="button" class="absolute -right-0.5 block md:hidden">
+                <img src="img/mdi_hamburger-menu.svg" alt="" class="" />
+              </button>
+              <nav id="nav-menu"
+                class=" absolute right-4 top-full hidden z-10 w-52 rounded-lg bg-white py-4 shadow-lg md:static md:block md:w-full md:rounded-none md:bg-opacity-0 md:text-xs md:shadow-none xl:md:text-sm">
+                <ul class="block md:flex md:font-semibold">
+                  <li class="group">
+                    <a href="#home" class="nav-class">Furniture <i class="ri-arrow-down-s-line ml-1"></i></a>
+                  </li>
+                  <li class="group">
+                    <a href="#about" class="nav-class">Shop</i></a>
+                  </li>
+                  <li class="group">
+                    <a href="#service" class="nav-class">About Us</i></a>
+                  </li>
+                  <li class="group">
+                    <a href="#team" class="nav-class">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="hidden font-medium xl:flex md:items-center md:gap-4 xl:gap-8">
+                <a href="" class="scale self-center"><img src="img/Group 48095384.svg" class="w-9" alt=""></a>
+              </div>
+          </div>
+        </div>
+      </header>
+    <!-- header end -->
+
+    <!-- home start -->
+
+    <section id="home" class="flex items-center xl:h-screen" style="
+    background-image: url(img/Group\ 48095438.svg);
+    background-size: cover;
+    background-position: bottom;
+    ">
+        <div class="container mx-auto mt-16 md:mt-24 lg:mt-24 xl:mt-0 mb-10 text-white">
+            <div class="text-center mx-auto">
+                <h1 class="mb-2 text-lg font-semibold sm:mb-4 md:mb-4 sm:text-xl md:text-2xl lg:mb-4 lg:text-3xl xl:text-[58px] xl:leading-[62px] xl:font-medium">
+                Make Your Interior More <br> Minimalistic & Modern
+                </h1>
+                <p class="text-xs font-semibold xl:font-thin sm:text-xs md:text-sm sm:w-[400px] lg:w-[450px] lg:text-lg xl:text-xl xl:w-[550px] mx-auto">
+                    Turn your room with panto into a lot more minimalist and modern with ease and speed.
+                </p>
+                <div class="relative items-center mt-2 sm:mt-4 xl:mt-6 lg:mb-6">
+                    <input type="text" placeholder="Search Furniture" class="border bg-gray-900 bg-opacity-25 backdrop-blur-[3px] border-white h-11 xl:h-14 text-xs xl:text-sm sm:px-5 rounded-full text-white px-3 xl:px-8 w-[80%] xl:w-[25%] sm:w-[40%] lg:w-[30%] 2xl:text-xl 2xl:py-8 placeholder:text-gray-300 placeholder:font-medium placeholder:xl:text-[18px]">
+                    <a href="" class="z-0 absolute top-1 rounded-full bg-secondary xl:py-2 p-2 py-1 xl:p-3 text-xs right-8 sm:right-44 md:right-52 xl:right-[470px] 2xl:right-56 lg:right-80 xl:top-1.5 2xl:text-xl 2xl:py-2 2xl:top-2.5"><i class="ri-search-line text-xl text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home end -->
+
+    <!-- service start -->
+
+    <section id="service" class="md:mb-16 pb-4 sm:pb-6 xl:pb-4">
+      <div class="container mx-auto xl:flex xl:items-center xl:justify-between xl:gap-8 md:mt-10 xl:pt-10 lg:pt-8">
+        <div class="text-center xl:text-left pt-8 xl:pt-0 xl:w-[60%]">
+          <h1 class="text-xl z-10 mt-2 xl:mt-4 font-bold xl:font-semibold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Why Choosing Us</h1>
+        </div>
+        <div class="mt-1 xl:mt-8 flex flex-wrap justify-between gap-1 md:mt-8 sm:flex-wrap sm:gap-6 xl:flex-nowrap lg:justify-center lg:gap-5 sm:justify-center xl:mb-6">
+          <div
+            class="flex flex-col justify-between gap-4 rounded-xl p-4 xl:p-4 text-center lg:text-left sm:w-[47%] lg:w-[31%] xl:w-[30%]" data-aos="fade-down" data-aos-duration="1500">
+            <div class="flex flex-col gap-2">
+              <div class="mx-auto lg:mx-0">
+                <h1 class="font-medium md:text-lg">Luxury Facilities</h1>
+              </div>
+              <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400">
+                The advantage of hiring workspace with us is that givees you comfortable service and all-around facilities. 
+              </p>
+            </div>
+            <button class="text-[12px] text-secondary xl:text-left font-medium md:text-sm">
+              More info <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-between gap-4 rounded-xl p-4 xl:p-4 text-center lg:text-left sm:w-[47%] lg:w-[31%] xl:w-[30%]" data-aos="fade-down" data-aos-duration="1500">
+            <div class="flex flex-col gap-2">
+              <div class="mx-auto lg:mx-0">
+                <h1 class="font-medium md:text-lg">Affordable Price </h1>
+              </div>
+              <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400">
+                You can get a workspace of the highhest quality at an Affordable price and still enjoy the facilities that are only here.
+              </p>
+            </div>
+            <button class="text-[12px] text-secondary xl:text-left font-medium md:text-sm">
+              More info <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-between gap-4 rounded-xl p-4 xl:p-4 text-center lg:text-left sm:w-[47%] lg:w-[31%] xl:w-[30%]" data-aos="fade-down" data-aos-duration="1500">
+            <div class="flex flex-col gap-2">
+              <div class="mx-auto lg:mx-0">
+                <h1 class="font-medium md:text-lg">Many Choiches</h1>
+              </div>
+              <p class="text-xs sm:text-xs md:text-xs lg:text-sm text-gray-400">
+                We provide many unique work space choiches so that you can choose the workspace to your liking  
+              </p>
+            </div>
+            <button class="text-[12px] text-secondary xl:text-left font-medium md:text-sm">
+              More info <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- service end -->
+
+  <!-- Kategori start -->
+
+  <section id="kategori" class="mb-10 pb-8 xl:pb-[4rem] md:mb-14 bg-[#F5F5F5]">
+    <div class="container mx-auto pt-6 xl:pt-10">
+      <div class="mb-6 md:mb-6 lg:mb-14" data-aos="fade-down" data-aos-duration="1500">
+        <h1 class="text-xl text-center mb-4 xl:mb-6 z-10 mt-2 xl:mt-4 font-semibold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Best Selling Product</h1>
+        <div class="bg-[#EEEEEE] p-1.5 py-2 rounded-full px-2 flex sm:w-[45%] mx-auto xl:w-[22%] xl:mx-auto items-center justify-between">
+          <div class="bg-white p-1 rounded-full w-fit px-3 text-sm">
+            Chair
+          </div>
+          <div class="hover:bg-white p-1 rounded-full w-fit px-3 text-sm">
+            Beds
+          </div>
+          <div class="hover:bg-white p-1 rounded-full w-fit px-3 text-sm">
+            Sofa
+          </div>
+          <div class="hover:bg-white p-1 rounded-full w-fit px-3 text-sm">
+            Lamp
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper mySwiperss relative">
+        <div class="swiper-wrapper pb-6 xl:pb-16">
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative bg-[#FAFAFA] rounded-xl w-[90%] mx-auto">
+                <div class="px-8 pb-1">
+                    <img src="img/Group 3742.svg" alt="" class="w-full pt-4"/>
+                </div>
+              <div class="bg-white rounded-b-xl p-4 bottom-0 w-full py-4 text-left">
+                <div>
+                  <p class="text-xs font-medium sm:text-xs md:text-xs mb-1 text-gray-500">
+                    Chair
+                  </p>
+                  <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                    Sakarias Armchair
+                  </h1>
+                  <img src="img/Group 172.svg" alt="">
+                </div>
+                <div class="flex items-center mt-2 justify-between text-[#0D1B39]">
+                    <div class="flex font-bold text-lg">
+                      <span class="text-xs mr-1">$</span> 392
+                    </div>
+                    <img src="img/Frame 174.svg" class="w-10" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative bg-[#FAFAFA] rounded-xl w-[90%] mx-auto">
+                <div class="px-8 pb-1">
+                    <img src="img/Group 3742 (1).svg" alt="" class="w-full pt-4"/>
+                </div>
+              <div class="bg-white rounded-b-xl p-4 bottom-0 xl:pb-5 w-full py-4 text-left">
+                <div>
+                  <p class="text-xs font-medium sm:text-xs md:text-xs mb-1 text-gray-500">
+                    Chair
+                  </p>
+                  <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                    Balstar Chair
+                  </h1>
+                  <img src="img/Group 172.svg" alt="">
+                </div>
+                <div class="flex items-center mt-2 justify-between text-[#0D1B39]">
+                    <div class="flex font-bold text-lg">
+                      <span class="text-xs mr-1">$</span> 299
+                    </div>
+                    <img src="img/Frame 174.svg" class="w-10" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative bg-[#FAFAFA] rounded-xl w-[90%] mx-auto">
+                <div class="px-8 pb-1">
+                    <img src="img/Group 3742 (2).svg" alt="" class="w-full pt-4"/>
+                </div>
+              <div class="bg-white rounded-b-xl p-4 bottom-0 w-full py-4 xl:pb-5 text-left">
+                <div>
+                  <p class="text-xs font-medium sm:text-xs md:text-xs mb-1 text-gray-500">
+                    Chair
+                  </p>
+                  <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                    Anjay chair
+                  </h1>
+                  <img src="img/Group 172.svg" alt="">
+                </div>
+                <div class="flex items-center mt-2 justify-between text-[#0D1B39]">
+                    <div class="flex font-bold text-lg">
+                      <span class="text-xs mr-1">$</span> 519
+                    </div>
+                    <img src="img/Frame 174.svg" class="w-10" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative bg-[#FAFAFA] rounded-xl w-[90%] mx-auto">
+                <div class="px-8 pb-1">
+                    <img src="img/Group 3742 (3).svg" alt="" class="w-full pt-4"/>
+                </div>
+              <div class="bg-white rounded-b-xl p-4 bottom-0 w-full py-4 text-left mb-3 xl:pb-7">
+                <div>
+                  <p class="text-xs font-medium sm:text-xs md:text-xs mb-1 text-gray-500">
+                    Chair
+                  </p>
+                  <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                    Nyantuy chair
+                  </h1>
+                  <img src="img/Group 172.svg" alt="">
+                </div>
+                <div class="flex items-center mt-2 justify-between text-[#0D1B39]">
+                    <div class="flex font-bold text-lg">
+                      <span class="text-xs mr-1">$</span> 921
+                    </div>
+                    <img src="img/Frame 174.svg" class="w-10" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative bg-[#FAFAFA] rounded-xl w-[90%] mx-auto">
+                <div class="px-8 pb-1">
+                    <img src="img/Group 3742.svg" alt="" class="w-full pt-4"/>
+                </div>
+              <div class="bg-white rounded-b-xl p-4 bottom-0 w-full py-4 text-left">
+                <div>
+                  <p class="text-xs font-medium sm:text-xs md:text-xs mb-1 text-gray-500">
+                    Chair
+                  </p>
+                  <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base">
+                    Sakarias Armchair
+                  </h1>
+                  <img src="img/Group 172.svg" alt="">
+                </div>
+                <div class="flex items-center mt-2 justify-between text-[#0D1B39]">
+                    <div class="flex font-bold text-lg">
+                      <span class="text-xs mr-1">$</span> 392
+                    </div>
+                    <img src="img/Frame 174.svg" class="w-10" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev absolute left-0 top-1/2 transform -translate-y-1/2">
+          <a href="#" class="p-1.5 shadow-md mr-2 xl:mr-0.5 bg-white px-3 rounded-full text-xs xl:text-sm xl:px-3 xl:py-2 flex items-center">
+              <i class="ri-arrow-left-line text-lg xl:text-xl"></i>
+          </a>
+        </div>
+        <div class="hidden swiper-pagination absolute bottom-0 left-1/2 transform -translate-x-1/2"></div>
+        <div class="swiper-button-next absolute right-0 top-1/2 transform -translate-y-1/2">
+            <a href="#" class="shadow-md p-1.5 ml-2 xl:ml-0.5 bg-white rounded-full px-3 xl:px-3 xl:py-2 text-xs xl:text-sm flex items-center">
+              <i class="ri-arrow-right-line text-lg xl:text-xl"></i>
+            </a>
+        </div>
+      </div>
+      <div class="mx-auto text-center">
+        <a href="" class="text-sm xl:text-lg font-medium text-secondary text-center">View All <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+  </section>    
+
+  <!-- Kategori end -->
+
+  <!-- start -->
+  <section id="profil" class="mb-10 xl:my-14 xl:mb-16 md:mt-10 md:mb-12">
+    <div class="container mx-auto xl:pt-14">
+      <div class="justify-between items-center md:flex md:items-center">
+        <div class="hidden w-[47%] -ml-24 md:block" data-aos="zoom-in" data-aos-duration="1500">
+          <img src="img/Group 48095437.svg" alt="" class="w-full rounded" />
+        </div>
+        <div class="mx-auto flex flex-col md:mt-0 justify-between text-center md:mx-0 md:w-[50%] md:text-left xl:mt-0" data-aos="zoom-out" data-aos-duration="1500">
+          <div class="text-p text-[12px] md:text-xs lg:text-sm xl:text-lg mb-2 font-medium text-secondary xl:mb-6">
+            <p class="tracking-[2px]">
+              EXPERIENCE
+            </p>
+          </div>
+          <div class="mb-3 xl:mb-6 xl:text-left">
+            <h1 class="text-xl font-semibold md:text-xl lg:text-2xl xl:text-[42px] xl:text-left xl:leading-[54px] 2xl:w-[70%]">
+              We Provide You The Best Experience
+            </h1>
+          </div>
+          <div class="text-p text-[12px] md:text-xs lg:text-sm xl:text-base">
+            <p class="">
+              You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials
+            </p>
+          </div>
+          <!-- <div class="lg::my-10 mt-3 md:my-4 xl:mt-6 xl:mb-8 flex md:mx-0 gap-2 xl:gap-4 mx-auto xl:mx-0">
+            <a href="#menu"
+              class="text-primary bg-button text-xs font-medium sm:text-xs md:text-xs xl:text-sm">More Detail</a>
+          </div> -->
+          <div class="flex pt-4 xl:mt-3 mx-auto xl:mx-0 text-secondary md:my-4 xl:mb-8 md:mx-0">
+            <a href="" class="scale text-xs font-medium xl:text-lg">More Info <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about end -->
+
+  <!-- start -->
+  <section id="profil" class="mb-10 xl:my-14 xl:mb-16 md:mt-10 md:mb-12">
+    <div class="container mx-auto xl:pt-14">
+      <div class="justify-between items-center md:flex md:items-center">
+        <div class="mx-auto flex flex-col md:mt-0 justify-between text-center md:mx-0 md:w-[50%] md:text-left xl:mt-0" data-aos="zoom-out" data-aos-duration="1500">
+          <div class="text-p text-[12px] md:text-xs lg:text-sm xl:text-lg mb-2 font-medium text-secondary xl:mb-6">
+            <p class="tracking-[2px]">
+              MATERIALS
+            </p>
+          </div>
+          <div class="mb-3 xl:mb-6 xl:text-left">
+            <h1 class="text-xl font-semibold md:text-xl lg:text-2xl xl:text-[42px] xl:text-left xl:leading-[54px] 2xl:w-[70%]">
+              Very Serious Materials For Making Furniture
+            </h1>
+          </div>
+          <div class="text-p text-[12px] md:text-xs lg:text-sm xl:text-base">
+            <p class="">
+              Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
+            </p>
+          </div>
+          <!-- <div class="lg::my-10 mt-3 md:my-4 xl:mt-6 xl:mb-8 flex md:mx-0 gap-2 xl:gap-4 mx-auto xl:mx-0">
+            <a href="#menu"
+              class="text-primary bg-button text-xs font-medium sm:text-xs md:text-xs xl:text-sm">More Detail</a>
+          </div> -->
+          <div class="flex pt-4 xl:mt-3 mx-auto xl:mx-0 text-secondary md:my-4 xl:mb-8 md:mx-0">
+            <a href="" class="scale text-xs font-medium xl:text-lg">More Info <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="hidden w-[47%] -mr-[84px] md:block" data-aos="zoom-in" data-aos-duration="1500">
+          <img src="img/Group 48095439.svg" alt="" class="w-full rounded" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about end -->
+
+  <!-- Kategori end -->
+
+  <section id="kategori" class="mb-10 md:mb-14">
+    <div class="container mx-auto xl:pt-0">
+      <div class="mb-6 md:mb-6 lg:mb-14" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="text-xs text-center mt-1 md:text-sm sm:text-sm text-secondary tracking-[2px]">TESTIMONIALS</h2>
+        <h1 class="text-xl text-center mb-1 xl:mb-2 z-10 mt-2 xl:mt-4 font-semibold md:text-2xl lg:text-3xl xl:text-[42px] xl:leading-[54px]">Our Client Reviews</h1>
+      </div>
+
+      <div class="swiper mySwiperss2 relative">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative">
+              <div class="w-full z-0">
+                <img src="img/Group 48095418.svg" alt="" class="w-full rounded-xl"/>
+              </div>
+              <div class="relative">
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div class="bg-white text-center mx-auto justify-center rounded-xl w-[85%] p-2 xl:p-6 xl:px-8 z-[1] -mt-[306px] xl:-mt-[416px] sm:-mt-[420px] md:-mt-[340px] lg:-mt-[360px]">
+                    <img src="img/Group 48095423.svg" class="mx-auto -mt-10 xl:-mt-14" alt="">
+                    <div class="">
+                      <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-xl xl:mb-2">
+                        Bang Upin
+                      </h1>
+                      <p class="text-xs text-gray-500 mb-2 xl:text-sm xl:mb-4">Pedagang Asongan</p>
+                      <p class="text-xs text-gray-500 font-medium sm:text-xs md:px-4 xl:px-0 md:text-xs mb-2 xl:mb-8">
+                        “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“
+                      </p>
+                      <img src="img/Group 48095424.svg" class="mx-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative">
+              <div class="w-full z-0">
+                <img src="img/Group 48095440.svg" alt="" class="w-full rounded-xl"/>
+              </div>
+              <div class="relative">
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div class="bg-white text-center rounded-xl w-[85%] p-2 xl:p-6 z-[1] -mt-[320px] xl:-mt-[416px] sm:-mt-[420px] md:-mt-[340px] lg:-mt-[360px] mx-auto">
+                    <img src="img/Group 48095423 (1).svg" class="mx-auto -mt-10 xl:-mt-14" alt="">
+                    <div class="">
+                      <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-xl xl:mb-2">
+                        Ibuk Sukijan
+                      </h1>
+                      <p class="text-xs text-gray-500 mb-2 xl:text-sm xl:mb-4">Ibu Rumah Tangga</p>
+                      <p class="text-xs text-gray-500 font-medium sm:text-xs md:text-xs mb-2 xl:mb-4">
+                        “Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“
+                      </p>
+                      <img src="img/Group 48095424.svg" class="mx-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative">
+              <div class="w-full z-0">
+                <img src="img/Group 48095441.svg" alt="" class="w-full rounded-xl"/>
+              </div>
+              <div class="relative">
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div class="bg-white text-center rounded-xl w-[85%] p-2 xl:p-6 xl:px-8 z-[1] -mt-[290px] sm:-mt-[420px] md:-mt-[340px] lg:-mt-[360px] xl:-mt-[416px]">
+                    <img src="img/Group 48095423 (2).svg" class="mx-auto -mt-10 xl:-mt-14" alt="">
+                    <div class="">
+                      <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-xl xl:mb-2">
+                        Mpok Ina
+                      </h1>
+                      <p class="text-xs text-gray-500 mb-2 xl:text-sm xl:mb-4">Karyawan Swasta</p>
+                      <p class="text-xs text-gray-500 font-medium md:px-4 sm:text-xs md:text-xs mb-2 xl:mb-8">
+                        “Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“
+                      </p>
+                      <img src="img/Group 48095424.svg" class="mx-auto sm:mb-2" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                
+          </div>
+          <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1500">
+            <div class="relative">
+              <div class="w-full z-0">
+                <img src="img/Group 48095418.svg" alt="" class="w-full rounded-xl"/>
+              </div>
+              <div class="relative">
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div class="bg-white text-center rounded-xl w-[85%] p-2 xl:p-6 xl:px-8 z-[1] -mt-[306px] sm:-mt-[420px] md:-mt-[340px] lg:-mt-[360px] xl:-mt-[416px]">
+                    <img src="img/Group 48095423.svg" class="mx-auto -mt-10 xl:-mt-14" alt="">
+                    <div class="">
+                      <h1 class="mb-1 text-sm font-bold md:mb-1 md:text-sm lg:text-base xl:text-xl xl:mb-2">
+                        Bang Upin
+                      </h1>
+                      <p class="text-xs text-gray-500 mb-2 xl:text-sm xl:mb-4">Pedagang Asongan</p>
+                      <p class="text-xs text-gray-500 font-medium md:px-4 xl:px-0 sm:text-xs md:text-xs mb-2 xl:mb-8">
+                        “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“
+                      </p>
+                      <img src="img/Group 48095424.svg" class="mx-auto" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                
+          </div>
+        </div>
+        <div class="swiper-button-prev absolute left-0 top-1/2 transform -translate-y-1/2">
+          <a href="#" class="p-1.5 shadow-md mr-2 xl:mr-0.5 bg-white px-3 rounded-full text-xs xl:text-sm xl:px-3 xl:py-2 flex items-center">
+              <i class="ri-arrow-left-line text-lg xl:text-xl"></i>
+          </a>
+        </div>
+        <div class="hidden swiper-pagination absolute bottom-0 left-1/2 transform -translate-x-1/2"></div>
+        <div class="swiper-button-next absolute right-0 top-1/2 transform -translate-y-1/2">
+            <a href="#" class="shadow-md p-1.5 ml-2 xl:ml-0.5 bg-white rounded-full px-3 xl:px-3 xl:py-2 text-xs xl:text-sm flex items-center">
+              <i class="ri-arrow-right-line text-lg xl:text-xl"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer start -->
+
+  <footer class="mt-16 xl:mt-8 bg-menu bg-[#F7F7F7] pb-8">
+    <div class="container mx-auto xl:mt-0">
+      <div class=""></div>
+      <div
+        class="flex flex-wrap justify-around gap-8 py-6 text-[6px] xl:py-14 md:justify-between md:text-[10px] lg:text-xs">
+        <div class="flex w-[40%] flex-col justify-between gap-2 font-medium md:w-1/4">
+          <div class="flex flex-col gap-1 md:gap-2 xl:gap-4">
+            <h1 class="mb-2 text-xs font-semibold md:text-base lg:text-2xl">
+              Panto
+            </h1>
+            <p class="text-[8px] sm:text-[8px] md:text-[8px] lg:text-xs xl:text-[14px] xl:w-[260px] xl:leading-6">
+              The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex w-[35%] flex-col gap-1 font-light md:w-[15%] md:gap-2 xl:gap-4">
+          <h1 class="mb-2 text-xs font-medium text-secondary md:text-sm lg:text-lg">
+            Services
+          </h1>
+          <div class="flex flex-col gap-2 text-[7px] md:text-[9px] lg:text-sm xl:gap-4">
+            <p class="">Email Marketing</p>
+            <p class="">Campaigns</p>
+            <p class="">Branding</p>
+          </div>
+        </div>
+
+        <div class="flex w-[35%] flex-col gap-1 font-light md:w-[10%] md:gap-2 xl:gap-4">
+          <h1 class="mb-2 text-xs font-medium text-secondary md:text-sm lg:text-lg">
+            Furniture
+          </h1>
+          <div class="flex flex-col gap-2 text-[7px] md:text-[9px] lg:text-sm xl:gap-4">
+            <p class="">Beds</p>
+            <p class="">Chair</p>
+            <p class="">All</p>
+          </div>
+        </div>
+        
+        <div class="flex w-[35%] flex-col gap-1 font-light md:w-[17%] md:gap-2 xl:gap-4">
+          <h1 class="mb-2 text-xs font-medium text-secondary md:text-sm lg:text-lg">
+            Follow Us
+          </h1>
+          <div class="flex flex-col gap-2 text-[7px] md:text-[9px] lg:text-sm xl:gap-4">
+            <p class="">Facebook</p>
+            <p class="">Twitter</p>
+            <p class="">Instagram</p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="md:flex md:justify-between font-extralight text-xs mt-3 xl:mt-6 xl:text-sm">
+          <h6 class="text-gray-500 text-center md:text-left">Copyright © Atremprojec2020</h6>
+          <h6 class="hidden md:flex">Term Conditons <span class="ml-14">Privacy Policy</span></h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
